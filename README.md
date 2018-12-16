@@ -2,7 +2,7 @@
 A dashcam for bicycles
 
 Both the bash script delete_oldest_.h264.sh and python 2 file dashcamcorder.py 
-should also be located in /home/pi and made executable (chmod +x filename)
+should be located in /home/pi and made executable (chmod +x filename)
 
 If you want it to run on boot, add...
 
