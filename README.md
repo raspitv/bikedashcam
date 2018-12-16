@@ -6,7 +6,7 @@ should be located in /home/pi and made executable (chmod +x filename)
 
 If you want it to run on boot, add...
 
-/bin/python /home/pi/dashcamcorder.py &
+/usr/bin/python /home/pi/dashcamcorder.py &
 
 ...to the end of your rc.local file with
 
