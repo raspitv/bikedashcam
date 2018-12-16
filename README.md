@@ -12,5 +12,10 @@ If you want it to run on boot, add...
 
 sudo nano /etc/rc.local
 
-You could use systemd but then you don't get the same console output which is useful on the bike to see what's happening.
+You could use systemd instead, but then you don't get the same console output which is useful on the bike to see what's happening.
+
+If you're wondering why it's in Python 2, it's because it's an evolution of raspicamcorder which was written in Python 2.
+It should be relatively easy to make it Python 3, but I'd rather spend my time making it work the way I want than satisfying the fussy requirements people with issues.
+
+To my mind it makes no sense to start a completely new project in Python 2 these days unless it needs to interact with legacy Python 2 stuff. Well this IS legacy Python 2 stuff, not a completely new project.
 
